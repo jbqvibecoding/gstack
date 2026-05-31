@@ -105,6 +105,7 @@ gstack/
 ├── plan-ceo-review/ # /plan-ceo-review skill
 ├── plan-eng-review/ # /plan-eng-review skill
 ├── autoplan/        # /autoplan skill (auto-review pipeline: CEO → design → eng)
+├── hermes-taskplanthink/  # /hermes-taskplanthink skill (Hermes-only: scenario-aware office-hours + plan reviews; depth = task→CEO, design→+designer, code→+eng)
 ├── benchmark/       # /benchmark skill (performance regression detection)
 ├── canary/          # /canary skill (post-deploy monitoring loop)
 ├── codex/           # /codex skill (multi-AI second opinion via OpenAI Codex CLI)
