@@ -24,7 +24,7 @@ const gbrain: HostConfig = {
 
   generation: {
     generateMetadata: false,
-    skipSkills: ['codex'],
+    skipSkills: ['codex', 'hermes-taskplanthink'],  // taskplanthink is Hermes-only
     includeSkills: [],
   },
 

@@ -19,7 +19,7 @@ const kiro: HostConfig = {
 
   generation: {
     generateMetadata: false,
-    skipSkills: ['codex'],  // Codex skill is a Claude wrapper around codex exec
+    skipSkills: ['codex', 'hermes-taskplanthink'],  // Codex skill is a Claude wrapper around codex exec; taskplanthink is Hermes-only
   },
 
   pathRewrites: [

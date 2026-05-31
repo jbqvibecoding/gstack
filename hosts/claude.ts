@@ -19,7 +19,7 @@ const claude: HostConfig = {
 
   generation: {
     generateMetadata: false,
-    skipSkills: ['claude'],  // Claude outside-voice skill is for non-Claude hosts
+    skipSkills: ['claude', 'hermes-taskplanthink'],  // Claude outside-voice skill is for non-Claude hosts; taskplanthink is Hermes-only
   },
 
   pathRewrites: [],  // Claude is the primary host — no rewrites needed
