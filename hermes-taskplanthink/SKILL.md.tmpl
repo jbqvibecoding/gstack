@@ -1,0 +1,39 @@
+---
+name: hermes-taskplanthink
+preamble-tier: 3
+version: 1.0.0
+description: |
+  Hermes 的通用「先想清楚再动手」工作流 / general think-before-you-build flow.
+  Run for any substantive request before implementation. Auto-detects the scenario
+  (code / design / general task) and runs office-hours framing plus the right depth
+  of plan review: task gets the CEO round, design adds the designer round, code adds
+  the eng round on top. Grounded in ETHOS.md.
+  Use when asked to "think this through", "plan this out", "scope this", or before
+  starting any feature, design, or non-trivial task. (gstack)
+voice-triggers:
+  - "think this through"
+  - "plan this out"
+  - "task plan think"
+triggers:
+  - think before building
+  - scenario-aware planning
+  - run the planning flow
+allowed-tools:
+  - Bash
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - WebSearch
+  - Task
+  - AskUserQuestion
+---
+
+{{PREAMBLE}}
+
+{{BASE_BRANCH_DETECT}}
+
+# /hermes-taskplanthink — scenario-aware planning flow
+
+{{HERMES_PIPELINE}}
